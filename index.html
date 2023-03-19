@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- css dosyasını html dosyasına asağıdaki kod satırı ile bağladık,
+    ben bu kodları sublime ile yapmaya başladım ve o ide de dosyalar otomatik olarak bağlanmıyormuş, bu ideye geçerken de boş
+    dosya seçeneğini seçtiğimden dosyalarım birbirine bağlanmamış ve bunu fark etmem üç saatimi aldı :) -->
+<head>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" type="text/css" href = "style.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+<body>
+<!--HEADER START-->
+    <header id="header"> <!-- Öncelikle header tanımlayıp, id verdik -->
+        <div class= "header"> <!-- Daha sonra header kapsayıcısını verdik -->
+            <div class="container">  <!-- Daha sonra ortalaması için container kapsayıcısını verdik -->
+                <div class="header-navbar">  <!-- Buraya logo konacak -->
+                    <div class="header-logo">  <!-- Logo-->
+                    <h2>COFFEE</h2>
+                    </div>
+                    <div class="header-menu"> <!--Logonun karşısına home-about-discovery-contact kısmını yerşetirdik -->
+                        <ul>
+                             <li><a href="#">Home</a></li>  <!-- liste etiketleri -->
+                             <li><a href="#">About</a></li>
+                             <li><a href="#">Discovery</a></li>
+                             <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-text">
+                    <h1><span class="first-letter">W</span>elcome</h1> <!-- span etiketini kullanmamızın sebebi ilk harfin büyük ve farklı fontta olacak olması -->
+                    <h3>Fill Me Up With Coffe</h3>                     <!-- span a farklı bir class da verdik-->
+                    <a href="#" class="btn-coffe">GET STARTED</a>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- HEADER FINISH-->
+<!-- ABOUT START-->
+<!-- Bundan sonra ana kapsayıcıları section etiketini kullanarak yapıyoruz. -->
+<!-- etiket adı. class adı yazıp tab a basarsan div etiketini hızlı tamamlamış olursun.-->
+    <section id="about">
+        <div class="about">
+            <div class="container">
+                <div class="about-title">
+                    <h2>ABOUT</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-img">
+                        <img src="https://images.unsplash.com/photo-1530629159325-9c378fc150b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjYwfHxjb2ZmZWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="coffe.jpg" >
+                    </div>
+                    <div class="about-text">
+                        <h4>OUR STORY</h4>
+                        <div id="coffee-bean">
+                            <i class="fa-solid fa-asterisk"></i>
+                        </div>
+                        <!--<br> satır atlamak için -->
+                        <p> İlk günden beri sürekli gelişip büyüyen ve bugün dünya üzerinde yaklaşık 50 ülkede 1200’den fazla şubesinde hizmet vermekte ve bu tutkuyu tüm kahve severlerle paylaşmaktadır.
+                            <br> İlk günden beri sürekli gelişip büyüyen ve bugün dünya üzerinde yaklaşık 50 ülkede 1200’den fazla şubesinde hizmet vermekte ve bu tutkuyu tüm kahve severlerle paylaşmaktadır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+<!-- ABOUT FINISH-->
+<!-- PORTFOLIO START-->
+<section id = "portfolio">
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <img src="carli-jeen-UWRqlJcDCXA-unsplash.jpg" alt="">
+            <div class="overlay">
+                <i class="fa-solid fa-asterisk"></i>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="coffee.jpg" alt="">
+            <div class="overlay">
+                <i class="fa-solid fa-asterisk"></i>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="daniel-tafjord-7GTxjNejlwg-unsplash.jpg" alt="">
+            <div class="overlay">
+                <i class="fa-solid fa-asterisk"></i>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="IMG_7304.JPG" alt="">
+            <div class="overlay">
+                <i class="fa-solid fa-asterisk"></i>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="nathan-dumlao-c2Y16tC3yO8-unsplash.jpg" alt="">
+            <div class="overlay">
+                <i class="fa-solid fa-asterisk"></i>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="nathan-dumlao-ikU3J1nr52w-unsplash.jpg" alt="">
+            <div class="overlay">
+                <i class="fa-solid fa-asterisk"></i>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="nathan-dumlao-Y3AqmbmtLQI-unsplash.jpg" alt="">
+            <div class="overlay">
+                <i class="fa-solid fa-asterisk"></i>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="rizky-subagja-1k7TnX5GAww-unsplash.jpg" alt="">
+            <div class="overlay">
+                <i class="fa-solid fa-asterisk"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- PORTFOLIO FINISH-->
+</body>
+</html>
+<!-- DISCOVER -->
+<section id="about">
+    <div class="about">
+        <div class="container">
+            <div class="about-title">
+                <h2>DISCOVER</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1582557678431-d3b30ea0be05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29mZmVlJTIwbWVudXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="coffe.jpg" >
+                </div>
+                <div class="about-text">
+                    <h4>MENU</h4>
+                    <div id="coffee-bean">
+                        <i class="fa-solid fa-asterisk"></i>
+                    </div>
+                    <!--<br> satır atlamak için -->
+                    <p> İlk günden beri sürekli gelişip büyüyen ve bugün dünya üzerinde yaklaşık 50 ülkede 1200’den fazla şubesinde hizmet vermekte ve bu tutkuyu tüm kahve severlerle paylaşmaktadır.
+                        <br> İlk günden beri sürekli gelişip büyüyen ve bugün dünya üzerinde yaklaşık 50 ülkede 1200’den fazla şubesinde hizmet vermekte ve bu tutkuyu tüm kahve severlerle paylaşmaktadır.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- CONTACT START -->
+<section id ="contact">
+    <div class="contact">
+        <div class="container">
+            <div class="page-title">
+                <h2>CONTACT US</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>0555 000 11 22<br>0212 000 11 33</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p> Gulhane sok., Beşiktaş/İstanbul</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p> coffee@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- CONTACT FINISH -->
+<!-- FOOTER START -->
+<footer id="footer">
+    <div class="footer">
+        <div class="footer-content">
+            <div class="page-title">
+                <h2>ABOUT US</h2>
+            </div>
+            <div class="footer-copyright">
+                <p>:)</p>
+                <br>
+            </div>
+            <nav class="footer-social">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-phone"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER FINISH -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
